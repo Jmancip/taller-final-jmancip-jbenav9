@@ -7,6 +7,7 @@ public class Main {
 
         Scanner scannerMenu = new Scanner(System.in);
 
+<<<<<<< HEAD
         int opcion = 0;
 
         do {
@@ -81,6 +82,10 @@ public class Main {
                     System.out.println("⚡                   \uD83C\uDFB2 4- Que es long                                           ⚡");
                     System.out.println("⚡                   \uD83C\uDFB2 5- Que es float                                          ⚡");
                     System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+=======
+        System.out.println("Hello world!");
+        System.out.println("PruebaPuhs");
+>>>>>>> 36bb0935d5985b31f8ac4d838478c97981775beb
 
 
                     int opcion1 = scannerMenu.nextInt();
