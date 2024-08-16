@@ -7,7 +7,7 @@ public class Main {
 
         Scanner scannerMenu = new Scanner(System.in);
 
-<<<<<<< HEAD
+
         int opcion = 0;
 
         do {
@@ -46,7 +46,7 @@ public class Main {
                     "░░█ █░█ █▀█ █▄░█       █▄▄ █▀▀ █▄░█ ▄▀█ █░█ █ █▀▄ █▀▀ █▀\n" +
                     "█▄█ █▀█ █▄█ █░▀█       █▄█ ██▄ █░▀█ █▀█ ▀▄▀ █ █▄▀ ██▄ ▄█");
             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-            System.out.println("✔       \uD83D\uDCD1 １ ＿ Ｄａｔｏｓ  Ｐｒｉｍｉｔｉｖｏｓ                                    ✔");
+            System.out.println("✔       \uD83D\uDCD1 １ ＿ Ｄａｔｏｓ  Ｐｒｉｍｉｔｉｖｏｓ                                   ✔");
             System.out.println("✔       \uD83E\uDDFE ２ _ Ｓｔｒｉｎｇ                                                     ✔");
             System.out.println("✔       \uD83D\uDD17 ３ ＿ Ｃｏｎｓｔａｎｔｅｓ                                             ✔");
             System.out.println("✔       \uD83D\uDD02 ４ ＿ Ｔｉｐｏ  Ｏｐｅｒａｄｏｒｅｓ                                     ✔");
@@ -82,10 +82,6 @@ public class Main {
                     System.out.println("⚡                   \uD83C\uDFB2 4- Que es long                                           ⚡");
                     System.out.println("⚡                   \uD83C\uDFB2 5- Que es float                                          ⚡");
                     System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-=======
-        System.out.println("Hello world!");
-        System.out.println("PruebaPuhs");
->>>>>>> 36bb0935d5985b31f8ac4d838478c97981775beb
 
 
                     int opcion1 = scannerMenu.nextInt();
@@ -112,7 +108,11 @@ public class Main {
                             System.out.println(" ＯＰＣＩＯＮ  ＮＯ  ＶＡＬＩＤＡ (◣_◢) ");
                             System.out.println("    (⌐■_■) --︻╦╤─ ¬-------- ");
                     }
+
                     break;
+
+
+                    }
                 case 2:
                     System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                     System.out.println("             \uD83E\uDDFE ２ _ Ｓｔｒｉｎｇ   ");
