@@ -7,15 +7,16 @@ public class Main {
 
         Scanner scannerMenu = new Scanner(System.in);
 
-        int opcionPrincipal; // Menu principal del progrma
-        int opcionSubmenuDatos; // Sub menu datos primitivos
-        int opcionSubmenuTipOpe; // sub menu tipo operadores
-        int opcionSubmenuArit; // sub menu tipo aritmetico
-        int opcionSubmenuTipRa; // sub menu tipo racional
-        int opcionSubmenuLogi; // sub menu tipo logicos
-        int opcionSubmenuAsig; // sub menu tipo asignación
-        int opcionSubmenuIncre; // sub menu incremental
-        int opcionSubmenuIf; // sub menu if
+        int opcionPrincipal; // Menu principal del programa
+        int opcionSubmenuDatos; // Sub menú datos primitivos
+        int opcionSubmenuTipOpe; // sub menú tipo operadores
+        int opcionSubmenuArit; // sub menú tipo aritmético
+        int opcionSubmenuTipRa; // sub menú tipo racional
+        int opcionSubmenuLogi; // sub menú tipo lógicos
+        int opcionSubmenuAsig; // sub menú tipo asignación
+        int opcionSubmenuIncre; // sub menú incremental
+        int opcionSubmenuIf; // sub menú if
+
 
 
 
@@ -62,9 +63,7 @@ public class Main {
             System.out.println("✔       \uD83D\uDD17 ３ ＿ Ｃｏｎｓｔａｎｔｅｓ                                             ✔");
             System.out.println("✔       \uD83D\uDD02 ４ ＿ Ｔｉｐｏ  Ｏｐｅｒａｄｏｒｅｓ                                     ✔");
             System.out.println("✔       ➰ ５ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  ＩＦ，  ＥＬＳＥ，  ＥＬＳＥ ＩＦ                         ✔");
-            System.out.println("✔       \uD83D\uDCDA ６ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｓｗｉｔｃｈ                                ✔");
-            System.out.println("✔       \uD83E\uDD13 ７ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｔｅｒｎａｒｉａ                             ✔");
-            System.out.println("✔       \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｄｏ Ｗｈｉｌｅ                                       ✔");
+            System.out.println("✔       d                                       ✔");
             System.out.println("✔       ♾\uFE0F ９ ＿ Ｂｕｃｌｅ  Ｗｈｉｌｅ                                                ✔");
             System.out.println("✔       ⚙\uFE0F１０ ＿ Ｂｕｃｌｅ  Ｆｏｒ                                                   ✔");
             System.out.println("✔       \uD83C\uDFAF ０ ＿ Ｓａｌｉｒ                                                      ✔");
@@ -110,7 +109,7 @@ public class Main {
 
                             case 1:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   ");
-                                System.out.println("         \uD83C\uDFB2  Expliacación Byte                                       ");
+                                System.out.println("         \uD83C\uDFB2  Explicación Byte                                       ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   ");
                                 System.out.println("⚡ Es utilizado para datos pequeños y optimización de memoria en array grandes \n en su rango de valores puede almacenar valores desde -128 hasta 127 \n en cuanto a su tamaño este ocupa 1 byte (8 bits) en la memoria. \n Ejemplo: byte primerNumero = 19. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   ");
@@ -120,9 +119,9 @@ public class Main {
                                 break;
                             case 2:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println(" \uD83C\uDFB2  Expliacación  Short                                          ");
+                                System.out.println(" \uD83C\uDFB2  Explicación  Short                                          ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Es otro tipo de dato primitivo numerico entero el cual es utilizado para almacenar valores enteros, \n en cuanto a su tamaño este ocupa 2 byte (16 bits) en la memoria,\n en su rango de valores este puede almacenar  desde los -32,768 hasta 32,767. \n Ejemplo: short numCorto =  30,301. ⚡");
+                                System.out.println("⚡ Es otro tipo de dato primitivo numérico entero el cual es utilizado para almacenar valores enteros, \n en cuanto a su tamaño este ocupa 2 byte (16 bits) en la memoria,\n en su rango de valores este puede almacenar  desde los -32,768 hasta 32,767. \n Ejemplo: short numCorto =  30,301. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
@@ -130,9 +129,9 @@ public class Main {
                                 break;
                             case 3:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2  Expliacación Int  ");
+                                System.out.println("       \uD83C\uDFB2  Explicación Int  ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Es el tipo de dato entero mas utilizado mas comunmente, \n en cuanto a su tamaño este ocupa 4 byte (32 bits) en memoria, \n en su rango de valores este puede almacenar desde -2,147,483,648 hasta 2,147,483,647. \n Ejemplo: int numero1 = 190291. ⚡");
+                                System.out.println("⚡ Es el tipo de dato entero más utilizado comúnmente, \n en cuanto a su tamaño este ocupa 4 byte (32 bits) en memoria, \n en su rango de valores este puede almacenar desde -2,147,483,648 hasta 2,147,483,647. \n Ejemplo: int numero1 = 190291. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
@@ -140,7 +139,7 @@ public class Main {
                                 break;
                             case 4:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2 Expliacación Long  ");
+                                System.out.println("       \uD83C\uDFB2 Explicación Long  ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("⚡ Es utilizado para valores enteros muy grandes \n en cuanto a su tamaño este ocupa 8 byte (64 bits) en memoria, \n en su rango de valores este puede almacenar desde -9,223,372,036,854,775,808 hasta 9,223,372,036,854,775,807. \n Ejemplo long num21 = 2123123123123123123. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -150,9 +149,9 @@ public class Main {
                                 break;
                             case 5:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2 Expliacación Float  ");
+                                System.out.println("       \uD83C\uDFB2 Explicación Float  ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Se utiliza en numeros con ,(coma) es decir los numeros decimales con una precision simple, \n en cuanto a su tamaño ocupa 4 bytes (32 bits) en memoria \n en su rango de valores este puede almacenar un aproximado de 1.4E-45 hasta ±3.4E38, \n tambien ofrece una precisión de un aproximado de 7 digitos decimales.\n Ejmeplo: float numDec = 3,14. ⚡");
+                                System.out.println("⚡ Se utiliza en números con,(coma) es decir los números decimales con una precisión simple, \n en cuanto a su tamaño ocupa 4 bytes (32 bits) en memoria \n en su rango de valores este puede almacenar un aproximado de 1.4E-45 hasta ±3.4E38, \n también ofrece una precisión de un aproximado de 7 dígitos decimales.\n Ejemplo: float numDec = 3,14. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
@@ -161,9 +160,9 @@ public class Main {
 
                             case 6:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2 Expliacación double  ");
+                                System.out.println("       \uD83C\uDFB2 Explicación double  ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Se utiliza en numeros con (coma) flotantes y una precisión doble, es util cuando se requiere numeros decimales con alta precisión y un rango amplio, \n en cuanto a su tamaño ocupa 8 bytes (64 bits) en memoria, \n en su rango de valores este puede almacenar desde ±4.9E-324 hasta ±1.8E308, \n tambien ofrece una precisión de un aproximado 15-16 dígitos decimales significativos. \n Ejemplo: double numDec = 3.1415926535. ⚡");
+                                System.out.println("⚡ Se utiliza en números con (coma) flotantes y una precisión doble, es útil cuando se requiere números decimales con alta precisión y un rango amplio, \n en cuanto a su tamaño ocupa 8 bytes (64 bits) en memoria, \n en su rango de valores este puede almacenar desde ±4.9E-324 hasta ±1.8E308, \n también ofrece una precisión de un aproximado 15-16 dígitos decimales significativos. \n Ejemplo: double numDec = 3.1415926535. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
@@ -172,9 +171,9 @@ public class Main {
 
                             case 7:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2 Expliacación Char  ");
+                                System.out.println("       \uD83C\uDFB2 Explicación Char  ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Se utiliza para almacenar un solo caracter como letras, digitos y simbolos, \n en cuanto a su tamaño este ocupa 2 bytes (16 bits) en memoria \n en cuanto a su rango de valores este puede almacenar un rango de 0 a 65,535 los cuales cubren todos los caracteres desde U+0000 hasta U+FFFF. \n Ejemplo: chat simbolo = '#'. ⚡");
+                                System.out.println("⚡ Se utiliza para almacenar un solo carácter como letras, dígitos y símbolos, \n en cuanto a su tamaño este ocupa 2 bytes (16 bits) en memoria \n en cuanto a su rango de valores este puede almacenar un rango de 0 a 65,535 los cuales cubren todos los caracteres desde U+0000 hasta U+FFFF. \n Ejemplo: chat símbolo = '#'. ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
@@ -183,9 +182,9 @@ public class Main {
 
                             case 8:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2 3- Expliacación boolean  ");
+                                System.out.println("       \uD83C\uDFB2 3- Explicación boolean  ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Se utiliza para almacenar valores logicos los cuales pueden ser verdadero o falso y este es utilizado para controlar el flujo en las ejecuciones de las estructuras de cotrol en la programación como son if,for y while, \n en cuanto a su tamaño no se tiene una especificación clara en cuanto a la ocupación y esta generalmente ocupa el menor espacio posible. \n Ejemplo boolean verdad = true \n boolean falso = false. ");
+                                System.out.println("⚡ Se utiliza para almacenar valores lógicos los cuales pueden ser verdadero o falso y este es utilizado para controlar el flujo en las ejecuciones de las estructuras de control en la programación como son if,for y while, \n en cuanto a su tamaño no se tiene una especificación clara en cuanto a la ocupación y esta generalmente ocupa el menor espacio posible. \n Ejemplo boolean verdad = true \n boolean falso = false. ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
@@ -206,7 +205,7 @@ public class Main {
                     System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                     System.out.println("String\n");
                     System.out.println("Los Strings son objetos de java con una sintaxis para representar\n" +
-                            "una cadena de caracteres, tambien se pueden definir para representar textos.\n" +
+                            "una cadena de caracteres, también se pueden definir para representar textos.\n" +
                             "Un ejemplo claro: es String str = \"Hola Mundo\";\n                            ");
                     System.out.println("\uD83D\uDE0E Para volver al menu principal presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                     scannerMenu.nextLine();
@@ -217,10 +216,10 @@ public class Main {
                 case 3:
                     System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                     System.out.println("Constantes\n");
-                    System.out.println("Las constantes son representadas mendiantes variables las cuales \n" +
+                    System.out.println("Las constantes son representadas mediante  variables las cuales \n" +
                             "no se pueden modificar una vez que se les asigne el valor y se utilizan la.\n" +
                             "palabra clave final\";\n" +
-                            "Un ejemplo de definicion es:  public static final String txt_Mensaje = \"Bienvenido al semillero!\"\n                      ");
+                            "Un ejemplo de definición es:  public static final String txt_Mensaje = \"Bienvenido al semillero!\"\n                      ");
                     System.out.println("\uD83D\uDE0E Para volver al menu principal presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                     scannerMenu.nextLine();
                     scannerMenu.nextLine();
@@ -275,7 +274,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2  Suma  ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta se utiliza para la adicion de dos operadores, \n Ejemplo: int suma = 1 + 1, suma = 2. ⚡");
+                                            System.out.println("⚡ Esta se utiliza para la adición de dos operadores, \n Ejemplo: int suma = 1 + 1, suma = 2. ⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -285,7 +284,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2  Resta  ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta se utiliza para la sustración de dos operadores, \n Ejemplo: int resta = 2 - 1, resta = 1. ⚡");
+                                            System.out.println("⚡ Esta se utiliza para la sustracción de dos operadores, \n Ejemplo: int resta = 2 - 1, resta = 1. ⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -315,7 +314,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2  Multiplicación  ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta se utiliza para la multiplicación de dos operadores, \n Ejemplo: int multiplicación = 5 * 2, multipliación = 10. ⚡");
+                                            System.out.println("⚡ Esta se utiliza para la multiplicación de dos operadores, \n Ejemplo: int multiplicación = 5 * 2, multiplicación = 10. ⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -359,7 +358,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2  Distinto de =!  ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta se utiliza para comprobar si dos valores son diferentes, \n Ejemplo: boolean distinto = 2 =! 1, distio = true. ⚡");
+                                            System.out.println("⚡ Esta se utiliza para comprobar si dos valores son diferentes, \n Ejemplo: boolean distinto = 2 =! 1, distinto = true. ⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -399,7 +398,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2  Menor o igual que <=    ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta se utiliza para comprobar si el primer valor es menor o igual que el segundo, \n Ejemplo: boolean vaiable = 4 <= 5, vaiable = true. ⚡");
+                                            System.out.println("⚡ Esta se utiliza para comprobar si el primer valor es menor o igual que el segundo, \n Ejemplo: boolean variable = 4 <= 5, variable = true. ⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -532,7 +531,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2  Asignación con modulo  %=    ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta calcula el modulo del operador izquierdo por el valor de la derecha y asigna el resultado a la variable izquierda, \n Ejemplo: int valor = 10, valor %= 3, valor = 1 .⚡");
+                                            System.out.println("⚡ Esta calcula el módulo del operador izquierdo por el valor de la derecha y asigna el resultado a la variable izquierda, \n Ejemplo: int valor = 10, valor %= 3, valor = 1 .⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -593,7 +592,7 @@ public class Main {
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("       \uD83C\uDFB2 Post incremento variable++    ");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                            System.out.println("⚡ Esta incrementa el valor de una variable despues de su uso, \n Ejemplo: int pos = 10 int pos1 = i++, pre = 11 pre1 = 11 .⚡");
+                                            System.out.println("⚡ Esta incrementa el valor de una variable después de su uso, \n Ejemplo: int pos = 10 int pos1 = i++, pre = 11 pre1 = 11 .⚡");
                                             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                             System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                             scannerMenu.nextLine();
@@ -632,9 +631,9 @@ public class Main {
                         switch (opcionSubmenuIf) {
                             case 1:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("       \uD83C\uDFB2 Incremento ++    ");
+                                System.out.println("       \uD83C\uDFB2 Explicación If    ");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println("⚡ Esta aumenta el valor de una variable en 1, \n Ejemplo: int inc = 10, inc++, inc = 11 .⚡");
+                                System.out.println("⚡ Es una estructura de control condicional la cual permite ejecutar bloques \n de codigo  que se basan en la evaluación de una condición booleana. \n Su estructura se basa de la siguiente manera: \n if (condición) {\n } \n Ejemplo de un if: \n int numero = 100 \n if(numero>50) { \n System.out.println(El número es mayor que 5); \n } ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine();
