@@ -20,6 +20,7 @@ public class Main {
         int opcionSubmenuIf; // Submenú if
         int opcionSubmenuProgIf; // Submenú programa If
         int opcionSubmenuSwitc; //  Submenú Switc
+        int opcionSubmenuTernaria; // sub menu Ternaria
 
 
 
@@ -975,7 +976,77 @@ public class Main {
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
                 case 7:
+                    do{
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡                   \uD83E\uDD13 ７ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｔｅｒｎａｒｉａ                        ⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  1- Ｅｘｐｌｉｃａｃｉｏｎ  Ｔｅｒｎａｒｉａ                        ⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  2- Ｐｒｏｇｒａｍａ  Ｔｅｒｎａｒｉａ                             ⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
 
+                        opcionSubmenuTernaria = scannerMenu.nextInt();
+
+                        switch (opcionSubmenuTernaria){
+                            case 1:
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡                   📚 Ｑｕｅ ｅｓ Ｔｅｒｎａｒｉａ                                    ⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡ El operador ternario es una forma concisa de escribir una declaración if-else en⚡");
+                                System.out.println("⚡ una sola línea. Se compone de tres partes:                                      ⚡");
+                                System.out.println("⚡ -La condición a evaluar (condición booleana)                                    ⚡");
+                                System.out.println("⚡ -El valor si la condición es verdadera (valor verdadero)                        ⚡");
+                                System.out.println("⚡ -El valor si la condición es falsa (valor falso)                                ⚡");
+                                System.out.println("⚡ El operador ternario en Java es una construcción que permite tomar decisiones   ⚡");
+                                System.out.println("⚡ basadas en una condición booleana de manera concisa en una sola línea de código.⚡");
+                                System.out.println("⚡ vaiable =(condicion) ? valor_si_verdadero : valor_si_falso;                     ⚡");
+                                System.out.println("⚡ Ejemplo:                                                                        ⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡  int edad = 20;                                                                 ⚡\n" +
+                                                    "⚡   String mensaje = (edad >= 18) ? \"Eres mayor de edad\" : \"Eres menor de edad\";  ⚡\n" +
+                                                    "⚡          System.out.println(mensaje);                                           ⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡ En este caso, si la variable edad es mayor o igual a 18, se asignará el mensaje ⚡");
+                                System.out.println("⚡ \"Eres mayor de edad\"; de lo contrario, se asignará  \"Eres menor de edad         ⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡ El operador ternario es útil para simplificar la escritura de expresiones       ⚡");
+                                System.out.println("⚡ condicionales simples, pero se debe usar con precaución para mantener la        ⚡");
+                                System.out.println("⚡ legibilidad del código, evitando anidar demasiadas expresiones ternarias        ⚡");
+                                System.out.println("⚡ complejas en una sola línea.                                                    ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+
+                            case 2:
+
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡                                                                                    ⚡");
+                                Scanner scannerTernaria = new Scanner(System.in);
+                                System.out.println("⚡               \uD83E\uDD13 Digite un número para ver si es Par o Impar 👇                    ⚡");
+                                System.out.println("⚡                                                                                    ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                int numero = scannerTernaria.nextInt();
+
+                                String resultado = (numero %2 ==0 )? "Par" : "Impar";
+                                System.out.println("⚡                                                                                    ⚡");
+                                System.out.println("⚡              \uD83E\uDD13 El número es " + resultado+" \uD83E\uDD13                                                ⚡");
+                                System.out.println("⚡                                                                                    ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+                        }
+                    } while (opcionSubmenuTernaria != 3); // salir del menu
+                    System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
+                    break;
 
 
                 case 0:
