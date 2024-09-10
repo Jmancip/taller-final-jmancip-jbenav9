@@ -20,7 +20,8 @@ public class Main {
         int opcionSubmenuIf; // Submenú if
         int opcionSubmenuProgIf; // Submenú programa If
         int opcionSubmenuSwitc; //  Submenú Switc
-        int opcionSubmenuTernaria; // sub menu Ternaria
+        int opcionSubmenuTernaria; // Submenú Ternaria
+        int opcionSubmenuFor; // Submenú for
 
 
 
@@ -1048,6 +1049,67 @@ public class Main {
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
 
+                case 10:
+                    do{
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  １０ ＿ Ｂｕｃｌｅ  Ｆｏｒ                        ⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  1- Ｅｘｐｌｉｃａｃｉｏｎ  bucle for                        ⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  2- Ｐｒｏｇｒａｍａ  bucle for                             ⚡");
+                        System.out.println("⚡                   \uD83E\uDD13  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+
+                        opcionSubmenuFor = scannerMenu.nextInt();
+
+                        switch (opcionSubmenuFor){
+                            case 1:
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("            \uD83C\uDFB2 Explicación Bucle For    ");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡ El bucle for es una estructura de control que se usa para repetir en un bloque de codigo un numero especifico de veces \n el for se compone de la siguiente forma: \n Inialización: Se establece una variable de control que generalmente se utiliza para contabilizar las iteraziones, esta solo se ejecuta una vez y al principio del bucle. \n Condición: Esta es una expresión booleana que se evalua antes de cada iteración, si la condición es true el bucle continua de lo contrario termina. \n Actualización: Esta se ejecuta al final de cada una de las iteraciones y generalmente se utiliza para modificar la variable de control. \n Ejemplo de un bucle For: \n  for(int i = 0; i < 10; i++) { \n System.out.println(i); \n }   .⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+                            case 2:
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("                \uD83C\uDFB2  Ｐｒｏｇｒａｍａ  bucle for  ");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+
+                                Scanner scanner = new Scanner(System.in);
+                                System.out.println(" Ingrese un numero: ");
+                                int num  = scanner.nextInt();
+
+                                if (num <= 0 ){
+                                        System.out.println("El numero debe ser mayor a 0 ");
+                                        return;
+                                    }
+                                    int sum = 0;
+                                    for (int i = 1; i<=num; i++){
+                                        sum += i;
+                                    }
+                                System.out.println("La sumatoria total es " + sum);
+
+
+
+
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+                            default:
+                                System.out.println("    (⌐■_■) --︻╦╤─ ¬-------- \uD83D\uDCA5  ");
+                                System.out.println(" ＯＰＣＩＯＮ  ＮＯ  ＶＡＬＩＤＡ (◣_◢) ");
+                                System.out.println("    (⌐■_■) --︻╦╤─ ¬-------- ");
+                        }
+                    } while (opcionSubmenuFor != 3); // Volver al Menú Principal
+                    System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
+                    break;
 
                 case 0:
                     System.out.println("   \uD83D\uDC4B\uD83C\uDFFC ＨＡＳＴＡ  ＰＲＯＮＴＯ \uD83D\uDC4B\uD83C\uDFFC ");
