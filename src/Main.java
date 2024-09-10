@@ -1,5 +1,6 @@
 import org.w3c.dom.ls.LSOutput;
 
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
@@ -20,10 +21,9 @@ public class Main {
         int opcionSubmenuIf; // Submenú if
         int opcionSubmenuProgIf; // Submenú programa If
         int opcionSubmenuSwitc; //  Submenú Switc
-        int opcionSubmenuTernaria; // Submenú Ternaria
-        int opcionSubmenuFor; // Submenú for
-
-
+        int opcionSubmenuTernaria; // submenu Ternaria
+        int opcionSubmenuDoWhile; //  submenu DoWhile
+        int opcionSubmenuFor;
 
         do {
             // Menú principal del taller
@@ -63,7 +63,7 @@ public class Main {
                     "░▄░▒█ ▒█▀▀█ ▒█░░▒█ ▒█▒█▒█ 　 ▒█▀▀▄ ▒█▀▀▀ ▒█▒█▒█ ▒█▄▄█ ░▒█▒█░ ▒█░ ▒█░▒█ ▒█▀▀▀ ░▀▀▀▄▄ \n" +
                     "▒█▄▄█ ▒█░▒█ ▒█▄▄▄█ ▒█░░▀█ 　 ▒█▄▄█ ▒█▄▄▄ ▒█░░▀█ ▒█░▒█ ░░▀▄▀░ ▄█▄ ▒█▄▄▀ ▒█▄▄▄ ▒█▄▄▄█");
             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-            System.out.println("⚡           \uD83D\uDCD1 １ ＿ Ｄａｔｏｓ  Ｐｒｉｍｉｔｉｖｏｓ                                      ⚡");
+            System.out.println("⚡           \uD83D\uDCD1 １ ＿ Ｄａｔｏｓ  Ｐｒｉｍｉｔｉｖｏｓ                                       ⚡");
             System.out.println("⚡           \uD83E\uDDFE ２ _ Ｓｔｒｉｎｇ                                                        ⚡");
             System.out.println("⚡           \uD83D\uDD17 ３ ＿ Ｃｏｎｓｔａｎｔｅｓ                                                 ⚡");
             System.out.println("⚡           \uD83D\uDD02 ４ ＿ Ｔｉｐｏ  Ｏｐｅｒａｄｏｒｅｓ                                        ⚡");
@@ -73,7 +73,7 @@ public class Main {
             System.out.println("⚡           \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｄｏ Ｗｈｉｌｅ                                          ⚡");
             System.out.println("⚡           ♾\uFE0F ９ ＿ Ｂｕｃｌｅ  Ｗｈｉｌｅ                                              ⚡");
             System.out.println("⚡           ⚙\uFE0F１０ ＿ Ｂｕｃｌｅ  Ｆｏｒ                                                 ⚡");
-            System.out.println("⚡           \uD83C\uDFAF ０ ＿ Ｓａｌｉｒ                                                        ⚡");
+            System.out.println("⚡           \uD83C\uDFAF ０ ＿ Ｓａｌｉｒ                                                         ⚡");
             System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
 
             // opción del usuario
@@ -723,10 +723,10 @@ public class Main {
                                 break;
 
                             case 3:
-                                System.out.println ("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println ("⚡                      \uD83C\uDFB2 Ｑｕｅ ｅｓ ＥＬＳＥ ＩＦ                      ⚡");
-                                System.out.println ("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                                System.out.println ("⚡ Con el ＥＬＳＥ ＩＦ sirve para que si no se cumple la primera condición (la   ⚡\n" +
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡                      \uD83C\uDFB2 Ｑｕｅ ｅｓ ＥＬＳＥ ＩＦ                      ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡ Con el ＥＬＳＥ ＩＦ sirve para que si no se cumple la primera condición (la   ⚡\n" +
                                         "⚡ del if principal) se evalue esta nueva condición de modo que se puede        ⚡\n" +
                                         "⚡ concatenar la cantidad de if else que se necesiten para cubrir todos los     ⚡\n" +
                                         "⚡ distintos escenarios que precisen ser tratados de una forma particular,      ⚡\n" +
@@ -745,7 +745,7 @@ public class Main {
                                         "⚡ // si la tempera  no es mayor que 25 ni que 15 ni menor que 5 si esta nevando⚡\n" +
                                         "⚡       System.out.println(\"A descansar... zZz                                 ⚡\n" +
                                         "⚡   }                                                                          ⚡");
-                                System.out.println ("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
 
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
                                 scannerMenu.nextLine(); // Captura el salto de línea restante
@@ -881,7 +881,7 @@ public class Main {
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
                 case 6:
-                    do{
+                    do {
                         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                         System.out.println("⚡                                                                                    ⚡");
                         System.out.println("⚡                   📚 ６ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｓｗｉｔｃｈ                           ⚡");
@@ -895,7 +895,7 @@ public class Main {
 
                         opcionSubmenuSwitc = scannerMenu.nextInt();
 
-                        switch (opcionSubmenuSwitc){
+                        switch (opcionSubmenuSwitc) {
                             case 1:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("⚡                                                                                 ⚡");
@@ -936,13 +936,13 @@ public class Main {
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 int nota = scannerSwitch.nextInt();
 
-                                switch (nota){
-                                    case 1 :
+                                switch (nota) {
+                                    case 1:
                                     case 2:
                                         System.out.println("⚡                       Su calificación es: F                                        ⚡");
                                         System.out.println("⚡                                                                                    ⚡");
                                         break;
-                                    case 3 :
+                                    case 3:
                                     case 4:
                                         System.out.println("⚡                        Su calificación es: D                                       ⚡");
                                         System.out.println("⚡                                                                                    ⚡");
@@ -977,7 +977,7 @@ public class Main {
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
                 case 7:
-                    do{
+                    do {
                         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                         System.out.println("⚡                                                                                    ⚡");
                         System.out.println("⚡                   \uD83E\uDD13 ７ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｔｅｒｎａｒｉａ                        ⚡");
@@ -991,7 +991,7 @@ public class Main {
 
                         opcionSubmenuTernaria = scannerMenu.nextInt();
 
-                        switch (opcionSubmenuTernaria){
+                        switch (opcionSubmenuTernaria) {
                             case 1:
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("⚡                                                                                 ⚡");
@@ -1009,8 +1009,8 @@ public class Main {
                                 System.out.println("⚡ Ejemplo:                                                                        ⚡");
                                 System.out.println("⚡                                                                                 ⚡");
                                 System.out.println("⚡  int edad = 20;                                                                 ⚡\n" +
-                                                    "⚡   String mensaje = (edad >= 18) ? \"Eres mayor de edad\" : \"Eres menor de edad\";  ⚡\n" +
-                                                    "⚡          System.out.println(mensaje);                                           ⚡");
+                                        "⚡   String mensaje = (edad >= 18) ? \"Eres mayor de edad\" : \"Eres menor de edad\";  ⚡\n" +
+                                        "⚡          System.out.println(mensaje);                                           ⚡");
                                 System.out.println("⚡                                                                                 ⚡");
                                 System.out.println("⚡ En este caso, si la variable edad es mayor o igual a 18, se asignará el mensaje ⚡");
                                 System.out.println("⚡ \"Eres mayor de edad\"; de lo contrario, se asignará  \"Eres menor de edad         ⚡");
@@ -1035,9 +1035,9 @@ public class Main {
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 int numero = scannerTernaria.nextInt();
 
-                                String resultado = (numero %2 ==0 )? "Par" : "Impar";
+                                String resultado = (numero % 2 == 0) ? "Par" : "Impar";
                                 System.out.println("⚡                                                                                    ⚡");
-                                System.out.println("⚡              \uD83E\uDD13 El número es " + resultado+" \uD83E\uDD13                                                ⚡");
+                                System.out.println("⚡              \uD83E\uDD13 El número es " + resultado + " \uD83E\uDD13                                                ⚡");
                                 System.out.println("⚡                                                                                    ⚡");
                                 System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                                 System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
@@ -1045,7 +1045,98 @@ public class Main {
                                 scannerMenu.nextLine(); // Espera a que el usuario presione Enter
                                 break;
                         }
+
                     } while (opcionSubmenuTernaria != 3); // salir del menu
+                    System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
+                    break;
+                case 8:
+                    do {
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡                   \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｄｏ Ｗｈｉｌｅ                                  ⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                   \uD83D\uDD01  1- Ｅｘｐｌｉｃａｃｉｏｎ  Ｄｏ Ｗｈｉｌｅ                         ⚡");
+                        System.out.println("⚡                   \uD83D\uDD01  2- Ｐｒｏｇｒａｍａ  Ｄｏ Ｗｈｉｌｅ                              ⚡");
+                        System.out.println("⚡                   \uD83D\uDD01  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+
+                        opcionSubmenuDoWhile = scannerMenu.nextInt();
+
+                        switch (opcionSubmenuDoWhile) {
+
+                            case 1:
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡                   \uD83D\uDD01 Ｑｕｅ ｅｓ Ｄｏ Ｗｈｉｌｅ                                     ⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡ La sentencia do-while en Java es una estructura de control de ciclo que ejecuta ⚡");
+                                System.out.println("⚡ un bloque de código una o más veces mientras se cumple una condición específica.⚡");
+                                System.out.println("⚡ La diferencia entre el ciclo while y el ciclo do-while es que en el ciclo while ⚡");
+                                System.out.println("⚡ la condición se evalúa antes de ejecutar el código, mientras que en el ciclo    ⚡");
+                                System.out.println("⚡ do-while, el código se ejecuta primero y luego se evalúa la condición.          ⚡");
+                                System.out.println("⚡ Si la condición se cumple, el ciclo se repite, de lo contrario, el ciclo se     ⚡");
+                                System.out.println("⚡ detiene.                                                                        ⚡");
+                                System.out.println("⚡ El ciclo do-while en Java se utiliza cuando se desea garantizar que el código   ⚡");
+                                System.out.println("⚡ se ejecute al menos una vez, independientemente de si se cumple la condición.   ⚡");
+                                System.out.println("⚡ Ejemplo:                                                                        ⚡");
+                                System.out.println("⚡                                                                                 ⚡");
+                                System.out.println("⚡  Ejemplo 1: El código imprimirá los números del 1 al 10                         ⚡");
+                                System.out.println("⚡       int i = 1;                                                                ⚡");
+                                System.out.println("⚡       do {                                                                      ⚡");
+                                System.out.println("⚡          System.out.println(i);                                                 ⚡");
+                                System.out.println("⚡          i++;                                                                   ⚡");
+                                System.out.println("⚡          } while (i <= 10);                                                     ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+                            case 2:
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("⚡                                                                                    ⚡");
+                                Scanner scannerDoWhile = new Scanner(System.in);
+                                System.out.println("⚡                        \uD83D\uDD01 Adivina el número entre 1 y 10                          ⚡");
+                                System.out.println("⚡                                                                                    ⚡");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                double rand = Math.random();
+                                int numeroSecreto = (int) (rand * 10) + 1;
+                                int intento;
+                                boolean adivinado = false;
+
+                                do {
+                                    System.out.println("⚡                                                                                    ⚡");
+                                    System.out.println("⚡        Ｉｎｇｒｅｓａ  ｔｕ  ｎｕｍｅｒｏ  ｐａｒａ  ｑｕｅ  ａｄｉｖｉｎｅ： 👇:              ⚡");
+                                    System.out.println("⚡                                                                                    ⚡");
+                                    System.out.println("");
+                                    intento = scannerDoWhile.nextInt();
+
+                                    if (intento < numeroSecreto) {
+                                        System.out.println("⚡                                                                                    ⚡");
+                                        System.out.println("⚡            Ｄｅｍａｓｉａｄｏ  ｂａｊｏ， ｉｎｔｅｎｔａ  ｎｕｅｖａｍｅｎｔｅ                 ⚡");
+                                        System.out.println("⚡                                                                                    ⚡");
+                                    } else if (intento > numeroSecreto) {
+                                        System.out.println("⚡                                                                                    ⚡");
+                                        System.out.println("⚡           Ｄｅｍａｓｉａｄｏ  ａｌｔｏ，  ｉｎｔｅｎｔａ  ｎｕｅｖａｍｅｎｔｅ．               ⚡");
+                                        System.out.println("⚡                                                                                    ⚡");
+                                    } else {
+                                        System.out.println("⚡                                                                                    ⚡");
+                                        System.out.println("⚡                             \uD83D\uDC4D  (͠≖ ͜ʖ͠≖)\uD83D\uDC4C                                        ⚡");
+                                        System.out.println("⚡      Ｆｅｌｉｃｉｔａｃｉｏｎｅｓ   ｈａｓ   ａｄｉｖｉｎａｄｏ   ｅｌ   ｎｕｍｅｒｏ．         ⚡");
+                                        System.out.println("⚡                                                                                    ⚡");
+                                        adivinado = true;
+                                    }
+                                } while (!adivinado);
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+                        }
+
+                    } while (opcionSubmenuDoWhile != 3); // salir del menu
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
 
@@ -1085,13 +1176,13 @@ public class Main {
                                 int num  = scanner.nextInt();
 
                                 if (num <= 0 ){
-                                        System.out.println("El numero debe ser mayor a 0 ");
-                                        return;
-                                    }
-                                    int sum = 0;
-                                    for (int i = 1; i<=num; i++){
-                                        sum += i;
-                                    }
+                                    System.out.println("El numero debe ser mayor a 0 ");
+                                    return;
+                                }
+                                int sum = 0;
+                                for (int i = 1; i<=num; i++){
+                                    sum += i;
+                                }
                                 System.out.println("La sumatoria total es " + sum);
 
 
@@ -1110,6 +1201,7 @@ public class Main {
                     } while (opcionSubmenuFor != 3); // Volver al Menú Principal
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
+
 
                 case 0:
                     System.out.println("   \uD83D\uDC4B\uD83C\uDFFC ＨＡＳＴＡ  ＰＲＯＮＴＯ \uD83D\uDC4B\uD83C\uDFFC ");
