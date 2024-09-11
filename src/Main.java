@@ -23,7 +23,8 @@ public class Main {
         int opcionSubmenuSwitc; //  Submenú Switc
         int opcionSubmenuTernaria; // submenu Ternaria
         int opcionSubmenuDoWhile; //  submenu DoWhile
-        int opcionSubmenuFor;
+        int opcionSubmenuFor; // submenú For
+        int opcionSubmenuWhile; // submenú while
 
         do {
             // Menú principal del taller
@@ -1139,6 +1140,72 @@ public class Main {
                     } while (opcionSubmenuDoWhile != 3); // salir del menu
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
+
+                case 9:
+                    do {
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡                   \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｗｈｉｌｅ                                  ⚡");
+                        System.out.println("⚡                                                                                    ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println("⚡                   \uD83D\uDD01  1- Ｅｘｐｌｉｃａｃｉｏｎ   Ｗｈｉｌｅ                         ⚡");
+                        System.out.println("⚡                   \uD83D\uDD01  2- Ｐｒｏｇｒａｍａ   Ｗｈｉｌｅ                              ⚡");
+                        System.out.println("⚡                   \uD83D\uDD01  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
+                        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+
+                        opcionSubmenuWhile = scannerMenu.nextInt();
+
+                        switch (opcionSubmenuWhile) {
+                            case 1:
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("                \uD83C\uDFB2 Bucle while    ");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println(" Esta es una estructura de control que permite ejecutar un bloque de codigo repetidamente meintras que se cumpla una condifición especifica, \n " +
+                                        " su funcionamiento inicia con la evaluación de la condicion antes de cada interacion se evalua la condicion que se proporciona en donde si la condicion es verdadera \n" +
+                                        " se ejecuta el bloque de codigo dentro del bucle, si la condicion es falsa el bucle termina y el flujo del programa continua con la siguiente linea de codigo .");
+                                System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+                                System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                scannerMenu.nextLine(); // Captura el salto de línea restante
+                                scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+                                break;
+                            case 2:
+                                Scanner scanner = new Scanner(System.in);
+
+                                int sum = 0;
+                                int num;
+
+                                System.out.println("Ingrese números para sumar.");
+
+
+                                while (true) {
+                                    System.out.print("Ingrese un número: ");
+                                    num = scanner.nextInt();
+
+
+
+                                    for (int i = 1; i<=num; i++){
+                                        sum += i;
+
+
+                                }
+                                    System.out.println("La suma de los números ingresados es: " + sum);
+                                    System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+                                    scanner.nextLine(); // Captura el salto de línea restante
+                                    scanner.nextLine(); // Espera a que el usuario presione Enter
+                                    break;
+                                    
+                                }
+
+
+                                                        }
+                        }while (opcionSubmenuWhile != 3); // Volver al Menú Principal
+                    System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
+                    break;
+
+
+
+
 
                 case 10:
                     do{
