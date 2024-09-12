@@ -1145,12 +1145,12 @@ public class Main {
                     do {
                         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                         System.out.println("⚡                                                                                    ⚡");
-                        System.out.println("⚡                   \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｗｈｉｌｅ                                  ⚡");
+                        System.out.println("⚡                   ♾\uFE0F ９ ＿ Ｂｕｃｌｅ  Ｗｈｉｌｅ                                      ⚡");
                         System.out.println("⚡                                                                                    ⚡");
                         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-                        System.out.println("⚡                   \uD83D\uDD01  1- Ｅｘｐｌｉｃａｃｉｏｎ   Ｗｈｉｌｅ                         ⚡");
-                        System.out.println("⚡                   \uD83D\uDD01  2- Ｐｒｏｇｒａｍａ   Ｗｈｉｌｅ                              ⚡");
-                        System.out.println("⚡                   \uD83D\uDD01  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
+                        System.out.println("⚡                   ♾\uFE0F  1- Ｅｘｐｌｉｃａｃｉｏｎ   Ｗｈｉｌｅ                             ⚡");
+                        System.out.println("⚡                   ♾\uFE0F  2- Ｐｒｏｇｒａｍａ   Ｗｈｉｌｅ                                  ⚡");
+                        System.out.println("⚡                   ♾\uFE0F  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
                         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
                         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
 
@@ -1169,6 +1169,7 @@ public class Main {
                                 scannerMenu.nextLine(); // Captura el salto de línea restante
                                 scannerMenu.nextLine(); // Espera a que el usuario presione Enter
                                 break;
+
                             case 2:
                                 Scanner scanner = new Scanner(System.in);
 
@@ -1202,9 +1203,6 @@ public class Main {
                         }while (opcionSubmenuWhile != 3); // Volver al Menú Principal
                     System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
                     break;
-
-
-
 
 
                 case 10:
