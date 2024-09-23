@@ -1,10 +1,10 @@
-package utilidades;
+package Utilidades;
 
 import java.util.Scanner;
 
 public class Validaciones {
 
-    public static void opcionValida(Scanner scannerMenu){
+    public static void opcionValida(Scanner scannerMenu) {
 
         while (!scannerMenu.hasNextInt()) {
             System.out.println("   \uD83D\uDC80 \uD83D\uDC80  Ｉｎｇｒｅｓｅ  ｎｕｍｅｒｏ  ｖａｌｉｄｏ  ｄｅｌ  ｍｅｎｕ  ｐｏｒ  ｆａｖｏｒ. \uD83D\uDC80 \uD83D\uDC80 ");
@@ -15,10 +15,20 @@ public class Validaciones {
     }
 
     int opcionSubmenuDatos;
-    public static int subMenuDatosPrimitivos(int opcionSubmenuDatos ) {
+
+    public static int subMenuDatosPrimitivos(int opcionSubmenuDatos) {
 
         while (opcionSubmenuDatos != 9) ; // Volver al Menú Principal
         System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
         return opcionSubmenuDatos;
     }
+
+    int opcionSubmenuArit;
+    public static int opcionSubmenuArit (int opcionSubmenuArit){
+
+        while (opcionSubmenuArit != 6); // Volver al Menú Principal
+        System.out.println(" \uD83D\uDE0E Volviendo al menu anterior...\uD83D\uDDB1\uFE0F  ");
+        return opcionSubmenuArit;
+    }
+
 }

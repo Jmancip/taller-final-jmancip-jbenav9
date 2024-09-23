@@ -1,6 +1,6 @@
-package menus;
+package Menus;
 
-public class menuPrincipal {
+public class MenuPrincipal {
 
     public static void menuPrincipal(){
         // Menú principal del taller

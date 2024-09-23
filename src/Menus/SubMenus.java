@@ -1,8 +1,8 @@
-package menus;
+package Menus;
 
 import java.util.Scanner;
 
-public class SubMenu {
+public class SubMenus {
 
     public static void subMenuDatosPrimitivos(){
 
