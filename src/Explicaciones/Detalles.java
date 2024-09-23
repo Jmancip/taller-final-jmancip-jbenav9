@@ -1,28 +1,8 @@
-package menus;
+package explicaciones;
 
 import java.util.Scanner;
 
-public class SubMenu {
-
-    public static void datosPrimitivos(){
-
-        // submenú datos primitivos
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("              \uD83D\uDCD1 １ ＿ Ｄａｔｏｓ  Ｐｒｉｍｉｔｉｖｏｓ ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- Que es byte                                           ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Que es Short                                          ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Que es Int                                            ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- Que es long                                           ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 5- Que es float                                          ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 6- Que es double                                         ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 7- Que es char                                           ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 8- Que es boolean                                        ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 9- Volver al menu anterior                               ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-
-    }
+public class detalle {
 
     public static void explicacionByte (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   ");
@@ -132,7 +112,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void sｔｒｉｎｇ (Scanner scannerMenu){
+    public static void explicacionSｔｒｉｎｇ (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83E\uDDFE ２ _ Ｓｔｒｉｎｇ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -145,7 +125,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void cｏｎｓｔａｎｔｅｓ(Scanner scannerMenu){
+    public static void explicacionCｏｎｓｔａｎｔｅｓ(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDD17 ３ ＿ Ｃｏｎｓｔａｎｔｅｓ   ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -159,35 +139,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void tｉｐｏＯｐｅｒａｄｏｒｅｓ (){
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("              \uD83D\uDD02 ４ ＿ Ｔｉｐｏ  Ｏｐｅｒａｄｏｒｅｓ  ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- Operador Aritmetico                         ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Operador racional                           ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Operadores logicos                          ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- Operadores de asignación                    ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 5- Operadores de incremento y decremento       ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 6- Volver al menu anterior                     ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-    }
-
-    public static void operadorAritmético(Scanner scannerMenu ){
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("             \uD83D\uDD02 １＿ Operador Aritmético ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- Suma                         ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Resta                        ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Multiplicación               ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- División                     ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 5- Modulo                       ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 6- Volver al menú anterior      ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-    }
-
-    public static void suma (Scanner scannerMenu){
+    public static void explicacionSuma (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDD02  Suma  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -198,7 +150,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void resta (Scanner scannerMenu){
+    public static void explicacionResta (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Resta  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -209,7 +161,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void multiplicación(Scanner scannerMenu){
+    public static void explicacionMultiplicación(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Multiplicación  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -220,7 +172,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void división(Scanner scannerMenu){
+    public static void explicacionDivisión(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  División  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -230,7 +182,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Captura el salto de línea restante
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
-    public static void modulo(Scanner scannerMenu){
+    public static void explicacionModulo(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Modulo  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -241,22 +193,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void operadorRacional(){
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("              \uD83D\uDCD1 2 ＿ Operador Racional ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- Igual a ==                   ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Distinto de =!               ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Mayor que >                  ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- Menor que <                  ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 5- Mayor o igual que >=         ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 6- Menor o igual que <=         ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 7- Volver al menú  anterior      ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-    }
-
-    public static void igual (Scanner scannerMenu){
+    public static void explicacionIgual (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Igual a ==  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -267,7 +204,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void distinto (Scanner scannerMenu){
+    public static void explicacionDistinto (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Distinto de =!  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -278,7 +215,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void mayor (Scanner scannerMenu){
+    public static void explicacionMayor (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Mayor que >  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -289,7 +226,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void menor (Scanner scannerMenu){
+    public static void explicacionMenor (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Menor que <  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -300,7 +237,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void mayorIgual(Scanner scannerMenu){
+    public static void explicacionMayorIgual(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Mayor o igual que >=   ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -311,7 +248,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void menorIgual(Scanner scannerMenu){
+    public static void explicacionMenorIgual(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Menor o igual que <=    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -321,20 +258,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Captura el salto de línea restante
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
-
-    public static void operadorLogicos(){
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("              \uD83D\uDCD1 3 ＿ Operador Lógicos ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- And &&                       ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Or ||                        ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Not !                        ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- Salir                        ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-    }
-
-    public static void and (Scanner scannerMenu){
+    public static void explicacionAnd (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  And &&    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -345,7 +269,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void or (Scanner scannerMenu){
+    public static void explicacionOr (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Or ||    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -356,7 +280,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void not (Scanner scannerMenu){
+    public static void explicacionNot (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Not !    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -367,22 +291,9 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void operadorAsignacion(){
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("              \uD83D\uDCD1 4 ＿ Operador de Asignación ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- Asignación =                      ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Asignación con suma +=            ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Asignación con resta -            ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- Asignación con multiplicación  *= ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 5- Asignación con división  /=       ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 6- Asignación con modulo  %=         ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 7- Salir                             ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-    }
 
-    public static void asignación(Scanner scannerMenu){
+
+    public static void explicacionAsignación(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("               \uD83C\uDFB2  Asignación =    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -393,7 +304,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void asignacionSuma(Scanner scannerMenu){
+    public static void explicacionAsignacionSuma(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("             \uD83C\uDFB2  Asignación con suma +=    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -404,7 +315,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void asignacionResta(Scanner scannerMenu){
+    public static void explicacionAsignacionResta(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Asignación con resta -    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -415,7 +326,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void asignacionMulti(Scanner scannerMenu){
+    public static void explicacionAsignacionMulti(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Asignación con multiplicación  *=    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -426,7 +337,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void asignacionDivi(Scanner scannerMenu){
+    public static void explicacionAsignacionDivi(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Asignación con división  /=     ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -437,7 +348,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void asigModu(Scanner scannerMenu){
+    public static void explicacionAsigModu(Scanner scannerMenu) {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2  Asignación con modulo  %=    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -449,20 +360,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void operadorIncrementoDecremento(){
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("              \uD83D\uDCD1 5 ＿ Operadores de incremento y decremento ");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 1- Incremento ++                ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 2- Decremento --                ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 3- Pre incremento ++variable    ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 4- Post incremento variable++   ⚡");
-        System.out.println("⚡                   \uD83C\uDFB2 5- Salir                        ⚡");
-        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-        System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-    }
-
-    public static void incremento(Scanner scannerMenu){
+    public static void explicacionIncremento(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2 Incremento ++    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -473,7 +371,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void decremento(Scanner scannerMenu){
+    public static void explicacionDecremento(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2 Decremento --    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -484,7 +382,7 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void preIncremento(Scanner scannerMenu){
+    public static void explicacionPreIncremento(Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("            \uD83C\uDFB2 Pre incremento ++variable    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -495,11 +393,215 @@ public class SubMenu {
         scannerMenu.nextLine(); // Espera a que el usuario presione Enter
     }
 
-    public static void postIncremento (Scanner scannerMenu){
+    public static void explicacionPostIncremento (Scanner scannerMenu){
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("                \uD83C\uDFB2 Post incremento variable++    ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡ Esta incrementa el valor de una variable después de su uso, \n Ejemplo: int pos = 10 int pos1 = i++, pre = 11 pre1 = 11 .⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionCondiIf (Scanner scannerMenu){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                        \uD83C\uDFB2 Ｑｕｅ ｅｓ ＩＦ                                         ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ La estructura condicional más simple en Java es el if, se evalúa una condición  ⚡\n" +
+                "⚡ y en caso de que se cumpla se ejecuta el contenido entre las llaves {} o en     ⚡\n" +
+                "⚡ caso de que se omitan se ejecuta el código hasta el primer «;» por lo tanto si  ⚡\n" +
+                "⚡ no se usan los {} la condición aplica solo a la siguiente instrucción al if.    ⚡\n" +
+                "⚡    Ejemplo: // Si la temperatura es mayor que 25                                ⚡\n" +
+                "⚡    if (temperatura > 25) {                                                      ⚡\n" +
+                "⚡    System.out.println(\"A la playa!!!\");                                         ⚡\n" +
+                "⚡   }                                                                             ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionCondiElse(Scanner scannerMenu){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                   \uD83C\uDFB2  Ｑｕｅ ｅｓ ＥＬＳＥ                                      ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ Con el if solo podemos hacer que se ejecute un fragmento de código o no pero ⚡\n" +
+                "⚡ en el caso de que no se cumpla la condición no se hace nada (sigue el flujo  ⚡\n" +
+                "⚡ normal de ejecución) por lo que si queremos que se ejecute otra cosa cuando  ⚡\n" +
+                "⚡ no se cumpla la condición solo con el if tenemos que hacer otro con la       ⚡\n" +
+                "⚡ condición inversa provocando que se tenga que comprobar la condición 2 veces ⚡\n" +
+                "⚡ mientras que si usamos el else solo necesitamos hacer la comprobación una    ⚡\n" +
+                "⚡ sola vez.                                                                    ⚡\n" +
+                "⚡ Ejemplo:                                                                     ⚡\n" +
+                "⚡    // Usando if con else                                                     ⚡\n" +
+                "⚡    // Si la temperatura es mayor que 25 ... y si no ...                      ⚡\n" +
+                "⚡       if (temperatura > 25) {                                                ⚡\n" +
+                "⚡            System.out.println(\"A la playa!!!\");                              ⚡\n" +
+                "⚡       } else {                                                               ⚡\n" +
+                "⚡            System.out.println(\"Esperando al buen tiempo...\");                ⚡\n" +
+                "⚡       }                                                                      ⚡\n");
+
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionCondiElseIf(Scanner scannerMenu){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                      \uD83C\uDFB2 Ｑｕｅ ｅｓ ＥＬＳＥ ＩＦ                      ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ Con el ＥＬＳＥ ＩＦ sirve para que si no se cumple la primera condición (la   ⚡\n" +
+                "⚡ del if principal) se evalue esta nueva condición de modo que se puede        ⚡\n" +
+                "⚡ concatenar la cantidad de if else que se necesiten para cubrir todos los     ⚡\n" +
+                "⚡ distintos escenarios que precisen ser tratados de una forma particular,      ⚡\n" +
+                "⚡ siendo el ultimo else el que se ejecute cuando no se cumpla ninguna condición⚡\n" +
+                "⚡ (el else es siempre opcional).                                               ⚡\n" +
+                "⚡ Ejemplo:                                                                     ⚡\n" +
+                "⚡    if (temperatura > 25) {                                                   ⚡\n" +
+                "⚡    // Si la temperatura es mayor que 25 ...                                  ⚡\n" +
+                "⚡        System.out.println(\"A la playa!!!\");                                  ⚡\n" +
+                "⚡          // si es mayor que 15 y no es mayor que 25 ..                       ⚡\n" +
+                "⚡        System.out.println(\"A la montaña!!!\");                                ⚡\n" +
+                "⚡         } else if (temperatura < 5 && nevando) {                             ⚡\n" +
+                "⚡   // si es menor que 5 y esta nevando y no es mayor que 15 ni mayor que 25   ⚡\n" +
+                "⚡       System.out.println(\"A esquiar!!!\"                                      ⚡\n" +
+                "⚡         } else {                                                             ⚡\n" +
+                "⚡ // si la tempera  no es mayor que 25 ni que 15 ni menor que 5 si esta nevando⚡\n" +
+                "⚡       System.out.println(\"A descansar... zZz                                 ⚡\n" +
+                "⚡   }                                                                          ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionＳｗｉｔｃｈ(Scanner scannerMenu ){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡                   📚 Ｑｕｅ ｅｓ Ｓｗｉｔｃｈ                                       ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ Es una estructura condicional como if else, con la gran diferencia, de que en   ⚡");
+        System.out.println("⚡ este, solo tenemos una expresión de comparación. En torno a esta, se evaluarán  ⚡");
+        System.out.println("⚡ una serie de selectores de código.                                              ⚡");
+        System.out.println("⚡ Su relevancia radica en su capacidad para simplificar la toma de decisiones     ⚡");
+        System.out.println("⚡ basada en múltiples condiciones.                                                ⚡");
+        System.out.println("⚡ Ejemplo:                                                                        ⚡");
+        System.out.println("⚡     int numero = 2;                                                             ⚡\n" +
+                "⚡           switch (numero) {                                                     ⚡\n" +
+                "⚡               case 1:                                                           ⚡\n" +
+                "⚡                   System.out.println(\"Uno\");                                    ⚡\n" +
+                "⚡                   break;                                                        ⚡\n" +
+                "⚡               case 2:                                                           ⚡\n" +
+                "⚡                   System.out.println(\"Dos\");                                    ⚡\n" +
+                "⚡                   break;                                                        ⚡\n" +
+                "⚡               default:                                                          ⚡\n" +
+                "⚡                   System.out.println(\"Otro número\");                            ⚡\n" +
+                "⚡                       }                                                         ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionＴｅｒｎａｒｉａvoid (Scanner scannerMenu){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡                   📚 Ｑｕｅ ｅｓ Ｔｅｒｎａｒｉａ                                    ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ El operador ternario es una forma concisa de escribir una declaración if-else en⚡");
+        System.out.println("⚡ una sola línea. Se compone de tres partes:                                      ⚡");
+        System.out.println("⚡ -La condición a evaluar (condición booleana)                                    ⚡");
+        System.out.println("⚡ -El valor si la condición es verdadera (valor verdadero)                        ⚡");
+        System.out.println("⚡ -El valor si la condición es falsa (valor falso)                                ⚡");
+        System.out.println("⚡ El operador ternario en Java es una construcción que permite tomar decisiones   ⚡");
+        System.out.println("⚡ basadas en una condición booleana de manera concisa en una sola línea de código.⚡");
+        System.out.println("⚡ vaiable =(condicion) ? valor_si_verdadero : valor_si_falso;                     ⚡");
+        System.out.println("⚡ Ejemplo:                                                                        ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡  int edad = 20;                                                                 ⚡\n" +
+                "⚡   String mensaje = (edad >= 18) ? \"Eres mayor de edad\" : \"Eres menor de edad\";  ⚡\n" +
+                "⚡          System.out.println(mensaje);                                           ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡ En este caso, si la variable edad es mayor o igual a 18, se asignará el mensaje ⚡");
+        System.out.println("⚡ \"Eres mayor de edad\"; de lo contrario, se asignará  \"Eres menor de edad         ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡ El operador ternario es útil para simplificar la escritura de expresiones       ⚡");
+        System.out.println("⚡ condicionales simples, pero se debe usar con precaución para mantener la        ⚡");
+        System.out.println("⚡ legibilidad del código, evitando anidar demasiadas expresiones ternarias        ⚡");
+        System.out.println("⚡ complejas en una sola línea.                                                    ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionDoWhile(Scanner scannerMenu){
+
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡                   \uD83D\uDD01 Ｑｕｅ ｅｓ Ｄｏ Ｗｈｉｌｅ                                     ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ La sentencia do-while en Java es una estructura de control de ciclo que ejecuta ⚡");
+        System.out.println("⚡ un bloque de código una o más veces mientras se cumple una condición específica.⚡");
+        System.out.println("⚡ La diferencia entre el ciclo while y el ciclo do-while es que en el ciclo while ⚡");
+        System.out.println("⚡ la condición se evalúa antes de ejecutar el código, mientras que en el ciclo    ⚡");
+        System.out.println("⚡ do-while, el código se ejecuta primero y luego se evalúa la condición.          ⚡");
+        System.out.println("⚡ Si la condición se cumple, el ciclo se repite, de lo contrario, el ciclo se     ⚡");
+        System.out.println("⚡ detiene.                                                                        ⚡");
+        System.out.println("⚡ El ciclo do-while en Java se utiliza cuando se desea garantizar que el código   ⚡");
+        System.out.println("⚡ se ejecute al menos una vez, independientemente de si se cumple la condición.   ⚡");
+        System.out.println("⚡ Ejemplo:                                                                        ⚡");
+        System.out.println("⚡                                                                                 ⚡");
+        System.out.println("⚡  Ejemplo 1: El código imprimirá los números del 1 al 10                         ⚡");
+        System.out.println("⚡       int i = 1;                                                                ⚡");
+        System.out.println("⚡       do {                                                                      ⚡");
+        System.out.println("⚡          System.out.println(i);                                                 ⚡");
+        System.out.println("⚡          i++;                                                                   ⚡");
+        System.out.println("⚡          } while (i <= 10);                                                     ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+
+    }
+
+    public static void explicacionWhile(Scanner scannerMenu){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("                \uD83C\uDFB2 Bucle while    ");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println(" Esta es una estructura de control que permite ejecutar un bloque de codigo repetidamente meintras que se cumpla una condifición especifica, \n " +
+                " su funcionamiento inicia con la evaluación de la condicion antes de cada interacion se evalua la condicion que se proporciona en donde si la condicion es verdadera \n" +
+                " se ejecuta el bloque de codigo dentro del bucle, si la condicion es falsa el bucle termina y el flujo del programa continua con la siguiente linea de codigo .");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
+        scannerMenu.nextLine(); // Captura el salto de línea restante
+        scannerMenu.nextLine(); // Espera a que el usuario presione Enter
+    }
+
+    public static void explicacionFor(Scanner scannerMenu){
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡                ⚙\uFE0F Ｑｕｅ ｅｓ  Ｂｕｃｌｅ  Ｆｏｒ                              ⚡");
+        System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
+        System.out.println("⚡ El bucle for es una estructura de control que se usa para repetir en un   ⚡");
+        System.out.println("⚡ bloque de codigo un numero especifico de veces el for se compone de la    ⚡");
+        System.out.println("⚡ siguiente forma: Inialización: Se establece una variable de control que   ⚡");
+        System.out.println("⚡ generalmente se utiliza para contabilizar las iteraziones, esta solo se   ⚡");
+        System.out.println("⚡ ejecuta una vez y al principio del bucle.  Condición: Esta es una         ⚡");
+        System.out.println("⚡ expresión booleana que se evalua antes de cada iteración, si la condición ⚡");
+        System.out.println("⚡ es true el bucle continua de lo contrario termina.  Actualización: Esta   ⚡");
+        System.out.println("⚡ se ejecuta al final de cada una de las iteraciones y generalmente se      ⚡");
+        System.out.println("⚡ utiliza para modificar la variable de control.                            ⚡");
+        System.out.println("⚡ Ejemplo de un bucle For:                                                  ⚡");
+        System.out.println("⚡ for(int i = 0; i < 10; i++)                                               ⚡");
+        System.out.println("⚡                {                                                          ⚡");
+        System.out.println("⚡       System.out.println(i);                                              ⚡");
+        System.out.println("⚡                               }                                           ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("\uD83D\uDE0E Para continuar presione la tecla enter \uD83D\uDDB1\uFE0F \n ");
         scannerMenu.nextLine(); // Captura el salto de línea restante
