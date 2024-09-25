@@ -1,12 +1,16 @@
 package Menus;
 
+import Explicaciones.Detalles;
+import Programas.EjercicioProgramas;
 import java.util.Scanner;
-
 public class SubMenus {
-
-    public static void subMenuDatosPrimitivos(){
-
-        // submenú datos primitivos
+    Detalles detalles = new Detalles();
+    EjercicioProgramas ejercicioProgramas = new EjercicioProgramas();
+    private Scanner scanner;
+    public SubMenus() {
+        scanner = new Scanner(System.in);
+    }
+    private int mostrarSubMenuDatosPrimitivos() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDCD1 １ ＿ Ｄａｔｏｓ  Ｐｒｉｍｉｔｉｖｏｓ ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -21,14 +25,47 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 9- Volver al menu anterior                               ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-
+        return scanner.nextInt();
     }
-
-
-
-
-
-    public static void SubMenuTｉｐｏＯｐｅｒａｄｏｒｅｓ (){
+    public void ejecutarSubMenuDatosPrimitivos() {
+        int opcionSubMenuDatosPrimitivos;
+        do {
+            opcionSubMenuDatosPrimitivos = mostrarSubMenuDatosPrimitivos();
+            switch (opcionSubMenuDatosPrimitivos) {
+                case 1:
+                    detalles.ejecutarExplicacionByte();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionShor();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionInt();
+                    break;
+                case 4:
+                    detalles.ejecutarExplicacionLong();
+                    break;
+                case 5:
+                    detalles.ejecutarExplicacionFloat();
+                    break;
+                case 6:
+                    detalles.ejecutarExplicacionDouble();
+                    break;
+                case 7:
+                    detalles.ejecutarExplicacionChar();
+                    break;
+                case 8:
+                    detalles.ejecutarExplicacionBoolean();
+                    break;
+                case 9:
+                    System.out.println("Saliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opción no válida. Intenta de nuevo.");
+                    break;
+            }
+        } while (opcionSubMenuDatosPrimitivos != 9);
+    }
+    private int mostrarSubMenuTipoOperadores() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDD02 ４ ＿ Ｔｉｐｏ  Ｏｐｅｒａｄｏｒｅｓ  ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -40,9 +77,32 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 6- Volver al menu anterior                     ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-    public static void SubMenuOperadorAritmético(Scanner scannerMenu ){
+    public void ejecutarSuMenuTipoOperadores() {
+        int opcionSubMenuTipoOperadores;
+        do {
+            opcionSubMenuTipoOperadores = mostrarSubMenuTipoOperadores();
+            switch (opcionSubMenuTipoOperadores) {
+                case 1:
+                    ejecutarSubMenuOperadorAritmetico();
+                    break;
+                case 2:
+                    ejecutarSubMenuOperadorRacional();
+                    break;
+                case 3:
+                    ejecutarSubMenuOperadorLogico();
+                    break;
+                case 4:
+                    ejecutarSubMenuOperadorAsignación();
+                    break;
+                case 5:
+                    ejecutarSubMenuIncrementoDecremento();
+                    break;
+            }
+        } while (opcionSubMenuTipoOperadores != 6);
+    }
+    public int mostrarsubMenuOperadorAritmético() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("             \uD83D\uDD02 １＿ Operador Aritmético ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -54,11 +114,32 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 6- Volver al menú anterior      ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-
-
-    public static void SubMenuOperadorRacional(){
+    public void ejecutarSubMenuOperadorAritmetico() {
+        int opcionSubMenuOperadorAritmetico;
+        do {
+            opcionSubMenuOperadorAritmetico = mostrarsubMenuOperadorAritmético();
+            switch (opcionSubMenuOperadorAritmetico) {
+                case 1:
+                    detalles.ejecutarExplicacionSuma();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionResta();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionMultiplicacion();
+                    break;
+                case 4:
+                    detalles.ejecutarExplicacionDivision();
+                    break;
+                case 5:
+                    detalles.ejecutarExplicacionModulo();
+                    break;
+            }
+        } while (opcionSubMenuOperadorAritmetico != 6);
+    }
+    public int mostrarSubMenuOperadorRacional() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDCD1 2 ＿ Operador Racional ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -71,10 +152,35 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 7- Volver al menú  anterior      ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-
-    public static void SubMenuOperadorLogicos(){
+    public void ejecutarSubMenuOperadorRacional() {
+        int opcionSubMenuOperadorRacional;
+        do {
+            opcionSubMenuOperadorRacional = mostrarSubMenuOperadorRacional();
+            switch (opcionSubMenuOperadorRacional) {
+                case 1:
+                    detalles.ejecutarExplicacionIgual();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionDistinto();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionMayor();
+                    break;
+                case 4:
+                    detalles.ejecutarExplicacionMenor();
+                    break;
+                case 5:
+                    detalles.ejecutarExplicacionMayorIgual();
+                    break;
+                case 6:
+                    detalles.ejecutarExplicacionMenorIgual();
+                    break;
+            }
+        } while (opcionSubMenuOperadorRacional != 7);
+    }
+    public int mostrarSubMenuOperadorLogicos() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDCD1 3 ＿ Operador Lógicos ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -84,10 +190,26 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 4- Salir                        ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-
-    public static void SubMenuOperadorAsignacion(){
+    public void ejecutarSubMenuOperadorLogico() {
+        int opcionSubMenuOperadorLogico;
+        do {
+            opcionSubMenuOperadorLogico = mostrarSubMenuOperadorLogicos();
+            switch (opcionSubMenuOperadorLogico) {
+                case 1:
+                    detalles.ejecutarExplicacionAnd();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionOr();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionNot();
+                    break;
+            }
+        } while (opcionSubMenuOperadorLogico != 4);
+    }
+    public int mostrarSubMenuOperadorAsignacion() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDCD1 4 ＿ Operador de Asignación ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -100,9 +222,35 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 7- Salir                             ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-    public static void SubMenuoperadorIncrementoDecremento(){
+    public void ejecutarSubMenuOperadorAsignación() {
+        int opcionSubMenuOperadorAsignación;
+        do {
+            opcionSubMenuOperadorAsignación = mostrarSubMenuOperadorAsignacion();
+            switch (opcionSubMenuOperadorAsignación) {
+                case 1:
+                    detalles.ejecutarExplicacionAsignacion();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionAsignacionSuma();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionAsignacionResta();
+                    break;
+                case 4:
+                    detalles.ejecutarExplicacionMultiplicacion();
+                    break;
+                case 5:
+                    detalles.ejecutarExplicacionAsignacionDivi();
+                    break;
+                case 6:
+                    detalles.ejecutarExplicacionAsigModu();
+                    break;
+            }
+        } while (opcionSubMenuOperadorAsignación != 7);
+    }
+    public int mostrarSubMenuoperadorIncrementoDecremento() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              \uD83D\uDCD1 5 ＿ Operadores de incremento y decremento ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -113,11 +261,29 @@ public class SubMenus {
         System.out.println("⚡                   \uD83C\uDFB2 5- Salir                        ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-
-
-    public static void SubMenuCondiIfElse(){
+    public void ejecutarSubMenuIncrementoDecremento() {
+        int opcionSubMenuIncrementoDecremento;
+        do {
+            opcionSubMenuIncrementoDecremento = mostrarSubMenuoperadorIncrementoDecremento();
+            switch (opcionSubMenuIncrementoDecremento) {
+                case 1:
+                    detalles.ejecutarExplicacionIncremento();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionDecremento();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionPreIncremento();
+                    break;
+                case 4:
+                    detalles.ejecutarExplicacionPostIncremento();
+                    break;
+            }
+        } while (opcionSubMenuIncrementoDecremento != 5);
+    }
+    public int mostrarSubMenuCondiIfElse() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡                                                                                   ⚡");
         System.out.println("⚡              ➰  Ｃｏｎｄｉｃｉｏｎａｌ  ＩＦ，  ＥＬＳＥ，  ＥＬＳＥ ＩＦ                 ⚡");
@@ -130,10 +296,29 @@ public class SubMenus {
         System.out.println("⚡                   ➰  5- Volver al menú anterior                                  ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-
+        return scanner.nextInt();
     }
-
-    public static void SubMenuProgramaIf(){
+    public void ejecutarSubMenuCondiIfElse() {
+        int opcionSubMenuCondiIfElse;
+        do {
+            opcionSubMenuCondiIfElse = mostrarSubMenuCondiIfElse();
+            switch (opcionSubMenuCondiIfElse) {
+                case 1:
+                    detalles.ejecutarExplicacionCondiIf();
+                    break;
+                case 2:
+                    detalles.ejecutarExplicacionCondiElse();
+                    break;
+                case 3:
+                    detalles.ejecutarExplicacionCondElseIf();
+                    break;
+                case 4:
+                    ejercicioProgramas.ejecutarProgramaIf();
+                    break;
+            }
+        } while (opcionSubMenuCondiIfElse != 5);
+    }
+    public int mostrarSubMenuProgramaIf() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("              ➰  Programa  ＩＦ，  ＥＬＳＥ，  ＥＬＳＥ ＩＦ ");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
@@ -141,10 +326,20 @@ public class SubMenus {
         System.out.println("⚡                   ➰  2- Salir                                               ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-
+        return scanner.nextInt();
     }
-
-    public static void SubMenuCondicionalSwitch(){
+    public void ejecutarSubMenuSubMenuProgramaIf() {
+        int opcionSubMenuSubMenuProgramaIf;
+        do {
+            opcionSubMenuSubMenuProgramaIf = mostrarSubMenuProgramaIf();
+            switch (opcionSubMenuSubMenuProgramaIf) {
+                case 1:
+                    ejercicioProgramas.ejecutarProgramaIf();
+                    break;
+            }
+        } while (opcionSubMenuSubMenuProgramaIf != 2);
+    }
+    public int mostrarSubMenuCondicionalSwitch() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡                                                                                    ⚡");
         System.out.println("⚡                   📚 ６ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｓｗｉｔｃｈ                           ⚡");
@@ -155,9 +350,23 @@ public class SubMenus {
         System.out.println("⚡                   📚  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-    public static void SubMenuCondＴｅｒｎａｒｉａ(){
+    public void ejecutarSubCondicionalSwitch() {
+        int opcionSubMenuCondicionalSwitch;
+        do {
+            opcionSubMenuCondicionalSwitch = mostrarSubMenuCondicionalSwitch();
+            switch (opcionSubMenuCondicionalSwitch) {
+                case 1:
+                    detalles.ejecutarexplicacionＳｗｉｔｃｈ();
+                    break;
+                case 2:
+                    ejercicioProgramas.ejecutarProgramaｓｗｉｔｃｈ();
+                    break;
+            }
+        } while (opcionSubMenuCondicionalSwitch != 3);
+    }
+    public int mostrarSubMenuCondＴｅｒｎａｒｉａ() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡                                                                                    ⚡");
         System.out.println("⚡                   \uD83E\uDD13 ７ ＿ Ｃｏｎｄｉｃｉｏｎａｌ  Ｔｅｒｎａｒｉａ                        ⚡");
@@ -168,9 +377,23 @@ public class SubMenus {
         System.out.println("⚡                   \uD83E\uDD13  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-    public static void SubMenuDoWhile(){
+    public void ejecutarSubmenuCondＴｅｒｎａｒｉａ() {
+        int opcionSubMenuCondＴｅｒｎａｒｉａ;
+        do {
+            opcionSubMenuCondＴｅｒｎａｒｉａ = mostrarSubMenuCondＴｅｒｎａｒｉａ();
+            switch (opcionSubMenuCondＴｅｒｎａｒｉａ) {
+                case 1:
+                    detalles.ejecutarExplicacionTernaria();
+                    break;
+                case 2:
+                    ejercicioProgramas.programaTernaria();
+                    break;
+            }
+        } while (opcionSubMenuCondＴｅｒｎａｒｉａ != 3);
+    }
+    public int mostrarSubMenuDoWhile() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡                                                                                    ⚡");
         System.out.println("⚡                   \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｄｏ Ｗｈｉｌｅ                                  ⚡");
@@ -181,9 +404,23 @@ public class SubMenus {
         System.out.println("⚡                   \uD83D\uDD01  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-    public static void subMenuWhile(){
+    public void ejecutarSubMenuCondDoWhile() {
+        int opcionSubMenuCondDoWhile;
+        do {
+            opcionSubMenuCondDoWhile = mostrarSubMenuDoWhile();
+            switch (opcionSubMenuCondDoWhile) {
+                case 1:
+                    detalles.ejecutarExplicacionDoWhile();
+                    break;
+                case 2:
+                    ejercicioProgramas.ejecutarProgramaDoWhile();
+                    break;
+            }
+        } while (opcionSubMenuCondDoWhile != 3);
+    }
+    public int motrarSubMenuWhile() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡                                                                                    ⚡");
         System.out.println("⚡                   \uD83D\uDD01 ８ ＿ Ｂｕｃｌｅ  Ｗｈｉｌｅ                                  ⚡");
@@ -194,10 +431,23 @@ public class SubMenus {
         System.out.println("⚡                   \uD83D\uDD01  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
     }
-
-    public static void subMenuFor(){
-
+    public void ejecutarSubMenuWhile() {
+        int opcionSubMenuCondWhile;
+        do {
+            opcionSubMenuCondWhile = motrarSubMenuWhile();
+            switch (opcionSubMenuCondWhile) {
+                case 1:
+                    detalles.ejecutarExplicacionWhile();
+                    break;
+                case 2:
+                    ejercicioProgramas.ejecutarprogramaWhile();
+                    break;
+            }
+        } while (opcionSubMenuCondWhile != 3);
+    }
+    public int mostrarSubMenuFor() {
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println("⚡                                                                                    ⚡");
         System.out.println("⚡                       ⚙\uFE0F  １０ ＿ Ｂｕｃｌｅ  Ｆｏｒ                                   ⚡");
@@ -208,5 +458,21 @@ public class SubMenus {
         System.out.println("⚡                   ⚙\uFE0F  3- Ｖｏｌｖｅｒ  ａｌ  ｍｅｎｕ  Ａｎｔｅｒｉｏｒ                   ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
+        return scanner.nextInt();
+    }
+    public void ejecutarFor() {
+        int opcionSubMenuCondFor;
+        do {
+            opcionSubMenuCondFor = mostrarSubMenuFor();
+            switch (opcionSubMenuCondFor) {
+                case 1:
+                    detalles.explicacionFor();
+                    break;
+                case 2:
+                    ejercicioProgramas.ejecutarProgramaFor();
+                    break;
+            }
+        } while (opcionSubMenuCondFor != 3);
     }
 }
+

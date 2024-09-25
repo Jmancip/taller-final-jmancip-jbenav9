@@ -1,36 +1,15 @@
 package Menus;
 
+import Explicaciones.Detalles;
+import java.util.Scanner;
 public class MenuPrincipal {
-
-    public static void menuPrincipal(){
-        // Menú principal del taller
-        System.out.println("\n" +
-                "█▀▄▀█ █▀▀ █▄░█ █░█   █▀▀ ▄▀█ █▀█ █ ▀█▀ █░█ █░░ █▀█   █▀▀ █▀█ █▀█ █▀▄▀█ ▄▀█ █▀▀ █ █▀█ █▄░█\n" +
-                "█░▀░█ ██▄ █░▀█ █▄█   █▄▄ █▀█ █▀▀ █ ░█░ █▄█ █▄▄ █▄█   █▀░ █▄█ █▀▄ █░▀░█ █▀█ █▄▄ █ █▄█ █░▀█");
-
-        System.out.println("─────────────────▄▄▄▄▄▄▄▄▄▄▄\n" +
-                "────────────▄▄▀▀▀░░░░░░░░░░░▀▄▄\n" +
-                "────────▄▄▀▀░░░░░░░▄▄▄▄▄▄▄░░░░░▀▄\n" +
-                "──────▄▀░░░░░░░░░▄▄▄▄▄▄▄▄▄▄▄░░░░░█\n" +
-                "────▄▀░░░░░▄▄▄▄▄▄▄░░░░░░░░░░░▄▄▄▄▄█▄▄\n" +
-                "───▄▀░▐▌░░░░░░░░░░▀▀░░░░░░░▀▀░░░░░░█\n" +
-                "──█░░░▀░░░░░░░▄▀▀▀▄░░░░▄░░░░▄▀▀▀▄░░▐▌\n" +
-                "─█░░░░░░▄▄▄░░▐░░▄░░▌░░░░▀▄░▐░░▄░░▌░░█\n" +
-                "▐▌░░░░▀▀░░░░▄░▀▄▄▄▀░░░░░░░▌░▀▄▄▄▀░░░▐▌\n" +
-                "█░░░░░░░░░░░░▀▄▄▄░░░░░░░░▐░░░░░▄▄▄▀░░█\n" +
-                "█░░░░▄▀░░░░░░░▄▄░░░░░░▄▀░▐░░░▄▄░░░░░░█\n" +
-                "▐▌░░▀░░░░░░░▄▀░░░▐▀░░░░░░░▀▌░░░▀▄░░░░█\n" +
-                "▐▌░░░▐░░░░░▐▌░░░░░▀█░░░░░░░▌░░░░█░░░░█\n" +
-                "─█░░░░░░░░░░░░░░▄░░▀▀▄▄▄▄▀▀░▀▄░░░░░░░█\n" +
-                "─▐▌░░░░░░░░░░░▄▀░░░░▄▄▄▄▄▄░░░░▌░░░░░░█\n" +
-                "──█░░░░░░░░░░▐░░░░▄▀░░░░░░▀▄░░▌░░░░░▐▌\n" +
-                "──▐▌░░░░░░░░░▐░░░░▀░░░▀▀░░░▀░░░░░░░░█\n" +
-                "───█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░▐▌\n" +
-                "───▐▌░░░░░░░░░▄███████▄░░░░▄████████▄\n" +
-                "────▀▄████████████▀█████▄▄████████▀██\n" +
-                "───▄██▀▄░░░░░███▀▄██████▀▀██████▀▄███\n" +
-                "───▀▀───▀▀▀▀▀▀█████████▀▀▀▀█████████▀\n" +
-                "───────────────▀▀▀▀▀▀▀──────▀▀▀▀▀▀▀");
+    private Scanner scanner;
+    SubMenus subMenus = new SubMenus();
+    Detalles detalles = new Detalles();
+    public MenuPrincipal() {
+        scanner = new Scanner(System.in);
+    }
+    private int mostrarMenu() {
         System.out.println("\n" +
                 "░░░▒█ ▒█░▒█ ▒█░░░ ▀█▀ ░█▀▀█ ▒█▄░▒█ 　 ▒█▀▄▀█ ░█▀▀█ ▒█▄░▒█ ▒█▀▀█ ▀█▀ ▒█▀▀█ ▒█▀▀▀ \n" +
                 "░▄░▒█ ▒█░▒█ ▒█░░░ ▒█░ ▒█▄▄█ ▒█▒█▒█ 　 ▒█▒█▒█ ▒█▄▄█ ▒█▒█▒█ ▒█░░░ ▒█░ ▒█▄▄█ ▒█▀▀▀ \n" +
@@ -52,9 +31,54 @@ public class MenuPrincipal {
         System.out.println("⚡           ⚙\uFE0F１０ ＿ Ｂｕｃｌｅ  Ｆｏｒ                                                 ⚡");
         System.out.println("⚡           \uD83C\uDFAF ０ ＿ Ｓａｌｉｒ                                                         ⚡");
         System.out.println("⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡");
-
-        // opción del usuario
         System.out.println(" \uD83D\uDC49  Ｄｉｇｉｔｅ  ｕｎａ   ｏｐｃｉｏｎ  ｄｅｌ  Ｍｅｎｕ  \uD83D\uDC48 ");
-        // opción invalida del menú
+        return scanner.nextInt(); // Captura la opción seleccionada
+    }
+    public void ejecutarMenuPrincipal() {
+        int opcionMenuPrincipal;
+        do {
+            opcionMenuPrincipal = mostrarMenu();
+            switch (opcionMenuPrincipal) {
+                case 1:
+                    subMenus.ejecutarSubMenuDatosPrimitivos();
+                    break;
+                case 2:
+                    detalles.explicacionString();
+                    break;
+                case 3:
+                    detalles.explicacionConstantes();
+                    break;
+                case 4:
+                    subMenus.ejecutarSuMenuTipoOperadores();
+                    break;
+                case 5:
+                    subMenus.ejecutarSubMenuCondiIfElse();
+                    break;
+                case 6:
+                    subMenus.ejecutarSubCondicionalSwitch();
+                    break;
+                case 7:
+                    subMenus.ejecutarSubmenuCondＴｅｒｎａｒｉａ();
+                    break;
+                case 8:
+                    subMenus.ejecutarSubMenuCondDoWhile();
+                    break;
+                case 9:
+                    subMenus.ejecutarSubMenuWhile();
+                    break;
+                case 10:
+                    subMenus.ejecutarFor();
+                    break;
+                case 0:
+                    System.out.println("Saliendo del programa...");
+                    break;
+                default:
+                    System.out.println("Opción no válida. Intenta de nuevo.");
+                    break;
+            }
+        } while (opcionMenuPrincipal != 0);
     }
 }
+
+
+
